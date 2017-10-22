@@ -11,12 +11,15 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
+import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Map;
 
 
@@ -29,10 +32,15 @@ public class HomePage extends AppCompatActivity {
     ArrayList<Position> positionList = new ArrayList<Position>();
     ArrayList<String> positionStringList = new ArrayList<String>();
     ArrayAdapter<String> positionStringListAdapter;
+
+    //TODO: Load user profile from database
+    Map<String, Object> userProfile = new HashMap<>();
+
     TextView testView;
     ListView dataList;
     Button getButton;
     Button emailButton;
+    Button profileButton;
     int dataListCount = 0;
 
 
@@ -44,6 +52,21 @@ public class HomePage extends AppCompatActivity {
         setContentView(R.layout.activity_home_page);
 
         fireDB = FirebaseFirestore.getInstance();
+
+        //TODO: load user profile from database
+        userProfile.put("firstName", "matt");
+        userProfile.put("lastName", "hollenbeck");
+        userProfile.put("employerName", "joe programming");
+        userProfile.put("email", "matthewhollenbeck0@gmail.com");
+        userProfile.put("primaryPhoneNumber", "9258085139");
+        userProfile.put("workPhoneNumber", null);
+        userProfile.put("previousVolunteer", true);
+        userProfile.put("yearsOfExperience", 2);
+        userProfile.put("typeOfWork", true);
+        userProfile.put("areasOfTown", "Ya know, in the bushes!");
+        userProfile.put("gradeLevelPreference", true);
+
+        //TODO: Load all positions from database and store in positionList
 
         testView = (TextView)findViewById(R.id.testView);
         testView.setText("Hello World");
@@ -157,6 +180,15 @@ public class HomePage extends AppCompatActivity {
             }
         });
 
+        profileButton = (Button)findViewById(R.id.profileButton);
+        profileButton.setText("Add new profile");
+        profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fireDB.collection("profiles")
+                        .add(userProfile);
+            }
+        });
     }
 
 
