@@ -1,0 +1,12 @@
+User Profile:
+- Name (First): String
+- Name (Last): String
+- Employer Name: String
+- Email: String
+- Phone Number: String
+- Work Phone: String
+- Previous Volunteer: Boolean
+- Years of Experience: Number
+- Type of Work: Boolean[5]
+- Areas of Town: String
+- Grade Level Preference: Boolean[3]

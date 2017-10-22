@@ -7,19 +7,19 @@ import java.util.ArrayList;
  */
 //class to intake position data
 public class Position {
-    String address = null;
-    String city = null;
-    String county = null;
-    Long fr_15_16;
-    Long fr_16_17;
-    Long fr_17;
-    boolean district_saz = false;
-    boolean title_1 = false;
+    String address = null; //street address of school
+    String city = null; //city of school
+    String county = null; //county of school
+    Long fr_15_16; //federal register (under 50% is underfunded)
+    Long fr_16_17; //federal register (under 50% is underfunded)
+    Long fr_17; //federal register (under 50% is underfunded)
+    boolean district_saz = false; //
+    boolean title_1 = false; //does schoool fall under title 1?
     boolean district_caz = false;
-    String name = null;
-    String district = null;
-    Long zip;
-    ArrayList<Boolean> type;
-    String model = null;
-    String dateTime = null;
+    String name = null; //name of school
+    String district = null; //district of school (plus private vs. public)
+    Long zip; //zip code of school
+    ArrayList<Boolean> type; //array of 3 booleans: are there volunteer positions in: [elementary school, middle school, high school]
+    String model = null; //educational model for the school
+    String dateTime = null; //date/time of volunteer position (currently not implemented)
 }
