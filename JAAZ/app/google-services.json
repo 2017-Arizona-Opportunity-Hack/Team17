@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "209276924145",
+    "firebase_url": "https://ja-arizona-26ebd.firebaseio.com",
+    "project_id": "ja-arizona-26ebd",
+    "storage_bucket": "ja-arizona-26ebd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209276924145:android:0553a601198f7728",
+        "android_client_info": {
+          "package_name": "com.jaaz.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209276924145-dc3lunbdusheffi4e75imd3nugj00b3a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaq9Q3TCjPWnkhvwG3iJsXXwBPlhtInhY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
