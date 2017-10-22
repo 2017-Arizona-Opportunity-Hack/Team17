@@ -16,6 +16,7 @@
 		860F6E8F1F9CB4670021C6DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860F6E8D1F9CB4670021C6DB /* Main.storyboard */; };
 		860F6E911F9CB4670021C6DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 860F6E901F9CB4670021C6DB /* Assets.xcassets */; };
 		860F6E941F9CB4670021C6DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 860F6E921F9CB4670021C6DB /* LaunchScreen.storyboard */; };
+		866DC1F11F9CF00E002504D6 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866DC1F01F9CF00E002504D6 /* Position.swift */; };
 		F0CFD6E19F42A3383D322A70 /* Pods_jaaz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54A0428103D3833D93825C3 /* Pods_jaaz.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		860F6E901F9CB4670021C6DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		860F6E931F9CB4670021C6DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		860F6E951F9CB4670021C6DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		866DC1F01F9CF00E002504D6 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		B9DECB2E300FE274492E8408 /* Pods-jaaz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jaaz.release.xcconfig"; path = "Pods/Target Support Files/Pods-jaaz/Pods-jaaz.release.xcconfig"; sourceTree = "<group>"; };
 		D54A0428103D3833D93825C3 /* Pods_jaaz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jaaz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1D633211161EA3DB92807D6 /* Pods-jaaz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jaaz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jaaz/Pods-jaaz.debug.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				860F6E891F9CB4660021C6DB /* AppDelegate.swift */,
+				866DC1F01F9CF00E002504D6 /* Position.swift */,
 				860F6E8B1F9CB4670021C6DB /* ViewController.swift */,
 				860EBAE21F9CBBFF0013E857 /* GoogleService-Info.plist */,
 				860F6E8D1F9CB4670021C6DB /* Main.storyboard */,
@@ -250,6 +253,7 @@
 			files = (
 				860EBADF1F9CB8FD0013E857 /* ContainerVC.swift in Sources */,
 				860EBAE51F9CC16E0013E857 /* MainMenuVC.swift in Sources */,
+				866DC1F11F9CF00E002504D6 /* Position.swift in Sources */,
 				860F6E8C1F9CB4670021C6DB /* ViewController.swift in Sources */,
 				860F6E8A1F9CB4660021C6DB /* AppDelegate.swift in Sources */,
 				860EBAE11F9CB9F10013E857 /* SideMenuBar.swift in Sources */,

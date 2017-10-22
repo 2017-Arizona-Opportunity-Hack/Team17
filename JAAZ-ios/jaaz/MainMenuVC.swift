@@ -7,13 +7,20 @@
 //
 
 import UIKit
+import FirebaseFirestore
 
-class MainMenuVC: UIViewController {
+class MainMenuVC: UIViewController{
+
+    var db: DocumentReference?
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        
+    }
+    func extractData(){
+        var red = db?.collection("positions")
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,6 +29,7 @@ class MainMenuVC: UIViewController {
         
     }
     
+
 
     @IBAction func onMoreTapped(){
     print("Toggle Side Menu")
