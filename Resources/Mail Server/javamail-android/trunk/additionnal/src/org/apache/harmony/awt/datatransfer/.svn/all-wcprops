@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer
+END
+DataSnapshot.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/DataSnapshot.java
+END
+DataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/DataSource.java
+END
+DataProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/DataProxy.java
+END
+TextFlavor.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/TextFlavor.java
+END
+DragSourceEventProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/DragSourceEventProxy.java
+END
+DTK.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/DTK.java
+END
+DataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/DataProvider.java
+END
+FlavorsComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/FlavorsComparator.java
+END
+RawBitmap.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/RawBitmap.java
+END
+DataTransferThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/DataTransferThread.java
+END
+NativeClipboard.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/4/trunk/additionnal/src/org/apache/harmony/awt/datatransfer/NativeClipboard.java
+END
