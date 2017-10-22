@@ -1,0 +1,5 @@
+background: #fefefe
+font-family: Poppins,Roboto,Arial,Helvetica,Helvetica Neue,sans-serif;
+
+color scheme: 
+color: #636466 (menu font), #fefefe (bg, header font), #8dc63f (header bg, buttons, footer text), #eaf7ff (blue bg), #008457 (blue text, header text, footer bg)
